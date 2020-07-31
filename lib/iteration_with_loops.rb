@@ -5,7 +5,7 @@ def find_min_in_nested_arrays(src)
   while count < src.length do
     inner = 0
     while inner < src[count].length do
-      if random > src[count][inner]
+      if random < src[count][inner]
         random = src[count][inner]
         new_array.push(random)
       end

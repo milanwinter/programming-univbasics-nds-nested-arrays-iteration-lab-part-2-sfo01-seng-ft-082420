@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
         end
       inner += 1
     end
-    new_array.push(random)
+    new_array.push(minimum)
     count +=1
   end
     new_array
